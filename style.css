@@ -1,0 +1,17 @@
+/*
+Theme Name: TwitchPress
+Description: A simple responsive theme built for Twitch streamers
+Author: Martin van Houte
+Author URI: http://twitch.tv/hootvsion
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
