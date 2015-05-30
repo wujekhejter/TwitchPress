@@ -37,4 +37,7 @@
     </div>
   </div>
 
-  <div class="container">
+    // Return nothing
+  } else { ?>
+    <div class="container">
+  <?php } ?>
