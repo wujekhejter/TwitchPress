@@ -1,7 +1,7 @@
      <hr>
 
       <footer>
-        <p>© Company 2012</p>
+        <p>© TwitchPress <?php echo date('Y'); ?></p>
       </footer>
 
     </div> <!-- /container -->

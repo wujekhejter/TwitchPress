@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Default page - With sidebar
+ * Template Name: Contact
  */
  ?>
 
