@@ -15,3 +15,8 @@ body {
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
+
+.jumbo {
+	width: 100%;
+	height: auto;
+}

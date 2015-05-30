@@ -18,6 +18,12 @@ if ( function_exists('register_sidebar') )
 		'after_title' => '</h3>',
 	));
 
+	//Remove adminbar for users
 	add_filter('show_admin_bar', '__return_false');
+
+	//Added support for post thumbnails
 	add_theme_support( 'post-thumbnails' );
+
+	//Added jumbotron image for homepage
+	add_image_size( 'jumbotron', 1920, 1080 );
 ?>
