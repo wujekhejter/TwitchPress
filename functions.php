@@ -26,4 +26,9 @@ if ( function_exists('register_sidebar') )
 
 	//Added jumbotron image for homepage
 	add_image_size( 'jumbotron', 1920, 1080 );
-?>
+
+	//Added custom post meta for youtube url / Twitch username etc in jumbotron
+	add_post_meta( 1, 'youtube_url', 2 );
+	//delete_post_meta(68, 'Youtube URL', 47);
+
+	?>
