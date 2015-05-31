@@ -29,6 +29,5 @@ if ( function_exists('register_sidebar') )
 
 	//Added custom post meta for youtube url / Twitch username etc in jumbotron
 	add_post_meta( 1, 'youtube_url', 2 );
-	//delete_post_meta(68, 'Youtube URL', 47);
-
+	add_post_meta( 2, 'twitch_username', 3 );
 	?>

@@ -46,9 +46,3 @@
       event.target.mute();
     }
   </script>
-
-  <div class="videoOverlay"></div>
-
-<script>
-
-</script>
