@@ -25,8 +25,8 @@
     var player;
     function onYouTubePlayerAPIReady() {
       player = new YT.Player('player', {
-        width: '1280',
-        height: '720',
+        width: '1920',
+        height: '1080',
         playerVars: {
           'autoplay': 1,
           'controls': 0,
@@ -46,3 +46,9 @@
       event.target.mute();
     }
   </script>
+
+  <div class="videoOverlay"></div>
+
+<script>
+
+</script>
